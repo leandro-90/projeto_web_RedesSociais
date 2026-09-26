@@ -7,15 +7,21 @@
     <title>Projeto Redes Sociais</title>
     <style>
         body {
+            margin: 0;
+        }
+
+        .page {
             background-image: url("imagens/fundo-madeira.jpg");
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-            height: 97.5vh;
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
+            flex-direction: column;
+            margin: 0;
         }
 
         .telefone {
@@ -41,7 +47,7 @@
 
         li img {
             border-radius: 50%;
-            width: 50px;
+            width: 40px;
         }
 
         nav {
@@ -49,36 +55,67 @@
             right: 0;
             top: 0;
         }
+
+        footer {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        p a {
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+        }
+
+        p a:hover {
+            color: blue;
+        }
     </style>
 </head>
 
 <body>
-    <section class="telefone">
-        <img class="telefoneImage" src="imagens/frame-iphone.png">
-        <iframe name="frame" frameborder="0"></iframe>
-    </section>
-    <section class="redesSociais">
-        <nav>
-            <ul>
-                <li>
-                    <a href="tela-home.html" target="frame"><img src="imagens/logo-home.jpg"></a>
-                </li>
-                <li>
-                    <a href="tela-facebook.html" target="frame"><img src="imagens/logo-facebook.jpg"></a>
-                </li>
-                <li>
-                    <a href="tela-gituhb.html" target="frame"><img src="imagens/logo-github.jpg"></a>
-                </li>
-                <li>
-                    <a href="tela-instagram.html" target="frame"><img src="imagens/logo-instagram.jpg"></a>
-                </li>
-                <li>
-                    <a href="tela-twitter.html" target="frame"><img src="imagens/logo-twitter.jpg"></a>
-                </li>
-                <li>
-                    <a href="tela-youtube.html" target="frame"><img src="imagens/logo-youtube.jpg"></a>
-                </li>
-            </ul>
-        </nav>
-    </section>
+    <div class="page">
+        <section class="telefone">
+            <img class="telefoneImage" src="imagens/frame-iphone.png">
+            <iframe name="frame" frameborder="0"></iframe>
+        </section>
+        <section class="redesSociais">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="tela-home.html" target="frame"><img src="imagens/logo-home.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="tela-facebook.html" target="frame"><img src="imagens/logo-facebook.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="tela-gituhb.html" target="frame"><img src="imagens/logo-github.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="tela-instagram.html" target="frame"><img src="imagens/logo-instagram.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="tela-twitter.html" target="frame"><img src="imagens/logo-twitter.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="tela-youtube.html" target="frame"><img src="imagens/logo-youtube.jpg"></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    <footer>
+        <p>Projeto criado e elaborado por <a href="https://www.youtube.com/@cursoemvideo" target="_blank">Curso em
+                vídeo</a>.</p>
+        <p>Desenvolvido por <a href="https://github.com/leandro-90" target="_blank">Leandro Ferreira</a>.</p>
+    </footer>
 </body>
