@@ -2,12 +2,12 @@
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Projeto%20Redes%20Sociais&fontSize=50&fontAlignY=38&desc=Navegação%20rápida%20e%20interativa&descAlignY=55&descAlign=50" width="100%" />
 
-  <br><br>
+<br><br>
 
-  [![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)]()
-  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
-  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
-  [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)]()
 
   <p align="center">
     <b>Uma interface moderna para centralizar e navegar entre perfis de redes sociais.</b>
@@ -23,8 +23,9 @@
 > O projeto encontra-se em fase de estruturação das telas e recursos base.
 
 **📍 Próximos passos / Em breve:**
-- [ ] 📱 Adicionar suporte a **design responsivo** (ajustes para telas de dispositivos móveis e tablets).
-- [ ] 🎨 Melhorias de layout e transições de tela mais fluidas.
+
+- [x] 📱 Adicionar suporte a **design responsivo** (ajustes para telas de dispositivos móveis e tablets).
+- [x] 🎨 Melhorias de layout e transições de tela mais fluidas.
 
 ---
 
@@ -68,3 +69,4 @@ projeto_web_RedesSociais/
 ├── tela-twitter.html       # Visualização do Twitter
 ├── tela-youtube.html       # Visualização do YouTube
 └── tela-gituhb.html        # Visualização do GitHub
+```
