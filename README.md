@@ -16,19 +16,6 @@
 
 ---
 
-## 🚧 Status do Projeto
-
-> **Em Desenvolvimento** 🛠️
->
-> O projeto encontra-se em fase de estruturação das telas e recursos base.
-
-**📍 Próximos passos / Em breve:**
-
-- [x] 📱 Adicionar suporte a **design responsivo** (ajustes para telas de dispositivos móveis e tablets).
-- [x] 🎨 Melhorias de layout e transições de tela mais fluidas.
-
----
-
 ## 📌 Sobre o Projeto
 
 O **Projeto Redes Sociais** é uma aplicação web desenvolvida para centralizar a apresentação de perfis de redes sociais dentro de uma moldura dinâmica e amigável. Através de uma interface limpa, o usuário consegue alternar facilmente entre diferentes plataformas simulando a navegação em um dispositivo.
